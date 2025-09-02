@@ -1,0 +1,29 @@
+{
+  "name": "@websimai/client-api-types",
+  "version": "0.0.1",
+  "description": "Type declarations for `window.websim` object",
+  "author": "GameRoMan",
+  "license": "MIT",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts"
+    },
+    "./client": {
+      "types": "./src/client.d.ts"
+    }
+  },
+  "scripts": {
+    "publish": "bun publish --access public"
+  },
+  "keywords": [
+    "websim",
+    "client",
+    "api",
+    "types",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

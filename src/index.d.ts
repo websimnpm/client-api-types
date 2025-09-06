@@ -1,9 +1,4 @@
-import type { WebsimClientAPI } from "./client";
+export type { WebsimClientAPI } from "./client-api";
+export type * from "./types";
 
-declare global {
-  interface Window {
-    readonly websim: WebsimClientAPI;
-  }
-
-  declare const websim: WebsimClientAPI;
-}
+export type * from "./globals";

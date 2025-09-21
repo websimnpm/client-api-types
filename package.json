@@ -1,7 +1,7 @@
 {
   "name": "@websimai/client-api-types",
   "version": "0.0.2",
-  "description": "Type declarations for `window.websim` object",
+  "description": "Type declarations for the `window.websim` object",
   "author": "GameRoMan",
   "license": "MIT",
   "types": "./src/index.d.ts",
@@ -11,7 +11,7 @@
     }
   },
   "scripts": {
-    "publish": "bun publish --access public"
+    "npm:publish": "bun publish --access public"
   },
   "keywords": [
     "websim",

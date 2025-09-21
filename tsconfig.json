@@ -11,9 +11,12 @@
     "allowImportingTsExtensions": true,
     "noEmit": true,
 
+    // This is a type declarations package
+    "skipLibCheck": false,
+    "skipDefaultLibCheck": true,
+
     // Max strictness
     "strict": true,
-    "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,

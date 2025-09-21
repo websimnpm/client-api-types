@@ -5,5 +5,5 @@ declare global {
     readonly websim: WebsimClientAPI;
   }
 
-  declare const websim: WebsimClientAPI;
+  const websim: WebsimClientAPI;
 }

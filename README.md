@@ -1,3 +1,3 @@
 # @websimai/client-api-types
 
-Type declarations for `window.websim` object
+Type declarations for the `window.websim` object

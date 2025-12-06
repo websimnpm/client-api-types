@@ -1,3 +1,1 @@
-# @websimai/client-api-types
-
-Type declarations for the `window.websim` object
+# Moved to [github.com/websimnpm/websim](https://github.com/websimnpm/websim)
